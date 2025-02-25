@@ -1,4 +1,4 @@
-#> entity:enemy/debug/fly/0000/bat
+#> bank:entity/enemy/debug/ground/0000.just_skeleton/status
 #
 # デバッグ用のカワイイ蝙蝠！！
 #
