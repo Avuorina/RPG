@@ -1,6 +1,6 @@
 #> bank:entity/enemy/debug/ground/0000.just_skeleton/status
 #
-# デバッグ用のカワイイ蝙蝠！！
+# デバッグ用のカワイイ骸骨！！
 #
 #
 
@@ -10,14 +10,14 @@
     data modify storage rpg_mob: Type set value "Enemy"
 ## 名前 [TextComponentString]
     data modify storage rpg_mob: Name set value '{"text":"ただの骸","color":"#800080"}'
-### 武器
+### 武器*
     ## メインハンド [Compound(Item)]
         data modify storage rpg_mob: Weapon.Mainhand set value {id:"minecraft:golden_sword"}
     ## オフハンド [Compound(Item)]
         data modify storage rpg_mob: Weapon.Offhand set value {id:"minecraft:end_crystal"}
 ## 👆️ドロップ率 [float, float]
-    data modify storage rpg_mob: Weapon.DropRate set value 100f
-### 防具
+    data modify storage rpg_mob: Weapon.DropRate set value [1.0f,1.0f]
+### 防具*
     ## 頭 [Compound(Item)]
         data modify storage rpg_mob: Armor.Head set value {id:"minecraft:command_block"}
     ## 胴 [Compound(Item)]
@@ -27,7 +27,7 @@
     ## 足 [Compound(Item)]
         data modify storage rpg_mob: Armor.Feet set value {id:"minecraft:golden_boots"}
 ## 👆️ドロップ率 [float, float]
-    data modify storage rpg_mob: Armor.DropRate set value 20f
+    data modify storage rpg_mob: Armor.DropRate set value [1.0f,1.0f,1.0f,1.0f]
 ## 体力 [double]
     data modify storage rpg_mob: HP set value 100d
 ## 攻撃力 [double]
