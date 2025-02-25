@@ -15,7 +15,7 @@ DeathLootTable:"bank:enemy/empty"\
 
 
 ## Statusの確立
-    execute as @e[type=wither_skeleton,tag=MobInit,distance=..0.01,limit=1,sort=nearest] run function bank:entity/enemy/debug/enemy/0000/status
+    execute as @e[type=wither_skeleton,tag=MobInit,distance=..0.01,limit=1,sort=nearest] run function bank:entity/enemy/debug/ground/0000.just_skeleton/summon
     #⨽└│
 #∨
     
