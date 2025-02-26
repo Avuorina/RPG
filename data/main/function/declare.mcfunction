@@ -5,11 +5,8 @@
 #
 
 ## スコアボード
-    scoreboard objectives add _ dummy "一時スコアボード"
     scoreboard objectives add ItemID dummy "アイテムID"
-    scoreboard objectives add Calc dummy "計算用"
-    scoreboard objectives add Const dummy "定数"
-        function main:define_const
+    scoreboard objectives add MobUUID dummy "モブUUID"
     # Status
         scoreboard objectives add ID dummy "ID"
         scoreboard objectives add HP dummy "HP"
@@ -19,6 +16,12 @@
         scoreboard objectives add SPD dummy "素早さ"
         scoreboard objectives add LUK dummy "運"
         scoreboard objectives add LV dummy "レベル"
+    # Calc用
+        scoreboard objectives add Calc dummy "計算用"
+        scoreboard objectives add Const dummy "定数"
+            function main:define_const
+        scoreboard objectives add _ dummy "一時スコアボード"
+        scoreboard objectives add Global dummy "グローバル"
 
 ## チーム
     # Enemy
